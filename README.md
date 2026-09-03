@@ -48,11 +48,14 @@
 | **08** | `Local_Encryption_Enclave.py` | Handles local cryptographic hashing, tokenization, and data vault protection. |
 | **09** | `System_Integration_Validator.py` | Executes final end-to-end matrix verification before operational deployment. |
 
-## Data Intelligence & Pipeline Analytics
-*The following analytical metrics and visualizations showcase advanced SQL database querying, local pipeline throughput, and automated telemetry mapping.*
+## Quickstart & Operational Deployment
+To initialize the pipeline locally under strict zero-trust parameters, execute the core entry point through your local CLI:
 
-```mermaid
-erDiagram
-    FDA_PUBLIC_STREAM ||--o{ DATA_SCHEMA_MANAGER : ingests
-    DATA_SCHEMA_MANAGER ||--o{ SQL_DATABASE_LOGS : stores
-    PIPELINE_ORCHESTRATOR ||--o{ TELEMETRY_LOGGING : monitors
+```bash
+# Clone and verify local enclave
+git clone [https://github.com/yeveti16472-jpg/AegisVault_MedCore.git](https://github.com/yeveti16472-jpg/AegisVault_MedCore.git)
+cd AegisVault_MedCore
+
+# Initialize Level 01 execution sequence
+python 01_AegisVault_MedCore_main.py
+
