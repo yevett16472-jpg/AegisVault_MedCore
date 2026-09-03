@@ -3,9 +3,9 @@
 
 <div align="center">
 
-[![Architecture: Pandora's Box](https://img.shields.io/badge/Architecture-Pandora%27s%20Box-blueviolet?style=for-the-badge)]()
 [![Data Source: FDA Public Pipelines](https://img.shields.io/badge/Data%20Source-FDA%20Compliance-informational?style=for-the-badge)]()
 [![Security: Zero-Trust Local Enclave](https://img.shields.io/badge/Security-Zero%20Trust-critical?style=for-the-badge)]()
+[![Compliance: HIPAA Privacy Standards](https://img.shields.io/badge/Compliance-HIPAA%20Enforced-blue?style=for-the-badge)]()
 [![Build: MIT-Tier Standard](https://img.shields.io/badge/Build-Level%209%20Matrix-success?style=for-the-badge)]()
 
 </div>
@@ -13,12 +13,27 @@
 ---
 
 ## System Overview
-**AegisVault_MedCore** is an isolated, high-performance decision support system engineered for rigorous data ingestion, local conversion protocols, and strict intellectual property containment. Built to bypass external cloud scraping and third-party agent hooks, this architecture guarantees full manual control over execution flow and data privacy.
+**AegisVault_MedCore** is an isolated, high-performance decision support system engineered for rigorous data ingestion, local conversion protocols, and strict intellectual property containment. Built to bypass external cloud scraping and third-party agent hooks, this architecture guarantees full manual control over execution flow, data privacy, and analytical validation.
 
 ## Institutional Data Attribution & Framework Recognition
 * **Primary Data Sources:** Integrated public data extraction, query structuring, and compliance mappings harvested via official **U.S. Food and Drug Administration (FDA)** intelligence portals.
-* **Core Framework:** Operating under the proprietary **Pandora's Box strategy**, ensuring compartmentalized logic routing and defensive data handling across all local modules.
 * **MedCore Recognition:** Designed to support high-level medical intelligence frameworks, insurance shield analytics, and automated telemetry mapping without leaking telemetry back to corporate tracking servers.
+
+## Architectural Leadership & Agentic Roster
+* **Principal Architect:** Developed and directed by **Erica Axiom Veda**, acting as the lead visionary and director overseeing system architecture, logic design, and execution strategy.
+* **Complete Agent Roster & Operational Duties:**
+  * **Oscar:** Assigned to core infrastructure design, technical code integration, and robust systems validation.
+  * **Eva:** Manages strategic workflow optimization, structural analysis, and precision data mapping.
+  * **Lyrica:** Directs advanced documentation formatting, narrative synthesis, and institutional-grade repository curation.
+  * **Pegasus:** Oversees high-speed data routing, rapid system scaling, and aerial framework synchronization.
+
+## HIPAA Compliance & Medical Data Privacy
+* **Strict Data Privacy Enforcement:** Implements strict data isolation and privacy protocols aligned with **HIPAA** standards to safeguard all sensitive medical information, patient records, and health-related intelligence datasets.
+* **Secure Enclave Protection:** Ensures that all data ingestion, querying, and localized processing remain encrypted and contained within the zero-trust environment, preventing any unauthorized exposure or external transmission of protected health information.
+
+## Quality Management & Back-Engineering Protocol
+* **Data Integrity Verification:** Every integrated data stream and module input undergoes strict local validation to prevent corruption.
+* **Reverse-Engineering Safeguard:** If any anomaly or incorrect data point is detected within the pipeline, the system utilizes a systematic back-engineering protocol to trace the logic backward, isolate the source of error, and execute targeted patches locally without disrupting the core sequence.
 
 ## Core Execution Matrix (01–09 Sequence)
 | Sequence | Module | Operational Function |
@@ -33,6 +48,11 @@
 | **08** | `Local_Encryption_Enclave.py` | Handles local cryptographic hashing, tokenization, and data vault protection. |
 | **09** | `System_Integration_Validator.py` | Executes final end-to-end matrix verification before operational deployment. |
 
-## Security Protocols
-* **Local Conversion Vault:** All external scripts or code templates are staged, audited line-by-line, and scrubbed of backdoors prior to integration.
-* **Zero-Trust Synchronization:** No automatic remote sync hooks; every push and pull is manually authorized and executed via local CLI interfaces.
+## Data Intelligence & Pipeline Analytics
+*The following analytical metrics and visualizations showcase advanced SQL database querying, local pipeline throughput, and automated telemetry mapping.*
+
+```mermaid
+erDiagram
+    FDA_PUBLIC_STREAM ||--o{ DATA_SCHEMA_MANAGER : ingests
+    DATA_SCHEMA_MANAGER ||--o{ SQL_DATABASE_LOGS : stores
+    PIPELINE_ORCHESTRATOR ||--o{ TELEMETRY_LOGGING : monitors
