@@ -1,60 +1,47 @@
-# AegisVault_MedCore
+"""
+AegisVault_MedCore - Local Master README Generator
+Author: Axiom Veda (Erika Godhigh)
+Description: Generates the official SOP-compliant, color-coded README.md
+             locally in VS Code for direct git staging and pushing.
+"""
 
-Advanced Sovereign Data Pipeline & Localized Decision Support Enclave
+import os
 
-`DATA SOURCE` `FDA COMPLIANCE` `SECURITY` `ZERO TRUST` `COMPLIANCE` `HIPAA ENFORCED` `BUILD` `LEVEL 9 MATRIX`
+def generate_readme():
+    readme_content = """# AegisVault_MedCore
 
-## System Overview
+> **Autonomous Medical Data Pipeline & Secure SQLite Architecture** 
+> *Author / System Architect:* Axiom Veda (Erika Godhigh) 
+> *Framework:* Pandora's Box Compartmental Engine Strategy 
+> *License:* MIT Open-Source Standard 
 
-AegisVault_MedCore is an isolated, high-performance decision support system engineered for rigorous data ingestion, local conversion protocols, and strict intellectual property containment. Built to bypass external cloud scraping and third-party agent hooks, this architecture guarantees full manual control over execution flow, data privacy, and analytical validation.
+---
 
-## Institutional Data Attribution & Framework Recognition
+## 🟢 1. Research & System Architecture (Research Core)
+AegisVault_MedCore is a secure, local-first medical data repository and Decision Support System. Built under the Pandora's Box compartmental engine strategy, this repository ensures absolute data privacy without third-party cloud dependencies.
 
-* **Primary Data Sources:** Integrated public data extraction, query structuring, and compliance mappings harvested via official U.S. Food and Drug Administration (FDA) intelligence portals.
-* **MedCore Recognition:** Designed to support high-level medical intelligence frameworks, insurance shield analytics, and automated telemetry mapping without leaking telemetry back to corporate tracking servers.
+* **Pipeline Structure:** Built on a sequential modular architecture.
+* **Database Engine:** Local SQLite integration optimized for lightweight, high-speed execution.
+* **Data Integrity:** Incorporates strict schema validation and error-handling wrappers to ensure zero data corruption during ingestion.
 
-## Architectural Leadership & Agentic Roster
+---
 
-* **Principal Architect:** Developed and directed by Erika Axiom Veda, acting as the lead visionary and director overseeing system architecture, logic design, and execution strategy.
-* **Complete Agent Roster & Operational Duties:**
-  * **Oscar:** Assigned to core infrastructure design, technical code integration, and robust systems validation.
-  * **Eva:** Manages strategic workflow optimization, structural analysis, and precision data mapping.
-  * **Lyrica:** Directs advanced documentation formatting, narrative synthesis, and institutional-grade repository curation.
-  * **Pegasus:** Oversees high-speed data routing, rapid system scaling, and aerial framework synchronization.
+## 🩷 2. Legal Compliance, Protocols & Standards (Compliance & Roster)
+Designed with strict adherence to data privacy frameworks, health data handling standards, and sovereign agent orchestration.
 
-## HIPAA Compliance & Medical Data Privacy
+* **The Architect / Human-in-the-Loop (Erika Godhigh):** Sovereign authority and final decision-making gatekeeper for all system actions.
+* **Oscar & Eva:** Core tactical execution, data processing, and operational coordination.
+* **Lyrica:** Quality management, back-engineering, and real-time troubleshooting for pipeline error isolation.
+* **Shield:** Encryption enforcement, data minimization, and local security protocol guardian.
+* **Pandora:** Compartmental engine coordinator managing module separation and data flow.
+* **MIT License Framework:** Free for public use, modification, and distribution under standard MIT terms, keeping your core architecture protected.
 
-* **Strict Data Privacy Enforcement:** Implements strict data isolation and privacy protocols aligned with HIPAA standards to safeguard all sensitive medical information, patient records, and health-related intelligence datasets.
-* **Secure Enclave Protection:** Ensures that all data ingestion, querying, and localized processing remain encrypted and contained within a zero-trust environment, preventing any unauthorized exposure or external transmission of protected health information.
+### 📈 Agent Succession & Oversight Matrix
+```mermaid
+flowchart LR
+    Root[Axiom Veda / Master Control] --> Node1[Oscar: Data Operations]
+    Root --> Node2[Eva: Compliance Routing]
+    Root --> Node3[Lyrica: Error Isolation]
+    Root --> Node4[Shield: Access Control]
 
-## Quality Management & Back-Engineering Protocol
-
-* **Data Integrity Verification:** Every integrated data stream and module input undergoes strict local validation to prevent corruption.
-* **Reverse-Engineering Safeguard:** If any anomaly or incorrect data point is detected within the pipeline, the system utilizes a systematic back-engineering protocol to trace the logic backward, isolate the source of error, and execute targeted patches locally without disrupting the core sequence.
-
-## Core Execution Matrix (01–09 Sequence)
-
-| Sequence | Module | Operational Function |
-| :--- | :--- | :--- |
-| **01** | `01_AegisVault_MedCore_main.py` | Central entry point governing initialization and system-wide matrix validation. |
-| **02** | `02_Pandora_Engine_Controller.py` | Manages compartmentalized logic flow, secure routing, and component isolation. |
-| **03** | `03_Sovereign_Agent_Roster.py` | Directs internal agent handoffs while blocking external API sniffing. |
-| **04** | `04_System_Config_Loader.py` | Ingests local environment parameters, keys, and operational variables securely. |
-| **05** | `05_Data_Schema_Manager.py` | Programmatically initializes SQLite database tables and schema structures from `schema.sql`. |
-| **06** | `06_Telemetry_Logging_Service.py` | Monitors internal diagnostics and system metrics entirely within the local enclave. |
-| **07** | `07_Pipeline_Execution_Orchestrator.py` | Coordinates multi-threaded data pipelines and automated task scheduling. |
-| **08** | `08_Local_Encryption_Enclave.py` | Handles local cryptographic hashing, tokenization, and data vault protection. |
-| **09** | `09_System_Integration_Validator.py` | Executes final end-to-end matrix verification before operational deployment. |
-
-## Quickstart & Operational Deployment
-
-To initialize the pipeline locally under strict zero-trust parameters, execute the core entry point through your local CLI:
-
-```bash
-# Clone and verify local enclave
-git clone [https://github.com/yevett16472-jpg/AegisVault_MedCore.git](https://github.com/yevett16472-jpg/AegisVault_MedCore.git)
-cd AegisVault_MedCore
-
-# Initialize Level 01 execution sequence
-python 01_AegisVault_MedCore_main.py
-
+ 
