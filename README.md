@@ -1,47 +1,49 @@
-"""
-AegisVault_MedCore - Local Master README Generator
-Author: Axiom Veda (Erika Godhigh)
-Description: Generates the official SOP-compliant, color-coded README.md
-             locally in VS Code for direct git staging and pushing.
-"""
-
-import os
-
-def generate_readme():
-    readme_content = """# AegisVault_MedCore
-
-> **Autonomous Medical Data Pipeline & Secure SQLite Architecture** 
-> *Author / System Architect:* Axiom Veda (Erika Godhigh) 
-> *Framework:* Pandora's Box Compartmental Engine Strategy 
-> *License:* MIT Open-Source Standard 
+<mark style="background-color: #1e1e1e; color: #ffffff; padding: 3px 8px; font-weight: bold;">[ Overview ]</mark> &nbsp;&nbsp;|&nbsp;&nbsp; <mark style="background-color: #2b580c; color: #ffffff; padding: 3px 8px; font-weight: bold;">[ 1. Research & Architecture ]</mark> &nbsp;&nbsp;|&nbsp;&nbsp; <mark style="background-color: #7c2d12; color: #ffffff; padding: 3px 8px; font-weight: bold;">[ 2. Compliance & Standards ]</mark> &nbsp;&nbsp;|&nbsp;&nbsp; <mark style="background-color: #37154b; color: #ffffff; padding: 3px 8px; font-weight: bold;">[ Agent Matrix ]</mark>
 
 ---
 
-## 🟢 1. Research & System Architecture (Research Core)
-AegisVault_MedCore is a secure, local-first medical data repository and Decision Support System. Built under the Pandora's Box compartmental engine strategy, this repository ensures absolute data privacy without third-party cloud dependencies.
+# AegisVault_MedCore
+### Autonomous Medical Data Repository & Sovereign Decision Support System
 
-* **Pipeline Structure:** Built on a sequential modular architecture.
-* **Database Engine:** Local SQLite integration optimized for lightweight, high-speed execution.
-* **Data Integrity:** Incorporates strict schema validation and error-handling wrappers to ensure zero data corruption during ingestion.
+> *"The present is theirs; the future, for which I really worked, is mine."* — **Nikola Tesla**
 
 ---
 
-## 🩷 2. Legal Compliance, Protocols & Standards (Compliance & Roster)
-Designed with strict adherence to data privacy frameworks, health data handling standards, and sovereign agent orchestration.
+### <mark style="background-color: #2b580c; color: white; padding: 2px 6px;">1. Research & System Architecture (Research Core)</mark>
 
-* **The Architect / Human-in-the-Loop (Erika Godhigh):** Sovereign authority and final decision-making gatekeeper for all system actions.
-* **Oscar & Eva:** Core tactical execution, data processing, and operational coordination.
-* **Lyrica:** Quality management, back-engineering, and real-time troubleshooting for pipeline error isolation.
+`AegisVault_MedCore` is engineered as a secure, local-first medical data repository and Decision Support System built under the proprietary **Pandora's Box compartmental engine strategy**, ensuring absolute data privacy with zero third-party cloud dependencies.
+
+* **Pipeline Structure:** Built on a sequential modular architecture optimized for secure telemetry.
+* **Database Engine:** Local SQLite integration optimized for high-speed, lightweight execution.
+* **Data Integrity:** Incorporates strict schema validation and error-handling wrappers to enforce zero data corruption during ingestion.
+
+---
+
+### <mark style="background-color: #7c2d12; color: white; padding: 2px 6px;">2. Legal Compliance, Protocols & Standards (Compliance & Roster)</mark>
+
+Designed with strict adherence to data privacy frameworks and sovereign agent orchestration.
+
+* **The Architect / Human-in-the-Loop (`Axiom Veda / Erika Godhigh`):** Sovereign authority and final decision-making gatekeeper for all system actions.
+* **Oscar & Eva:** Core tactical execution, data processing, and compliance routing.
+* **Lyrica:** Quality management, back-end engineering, and real-time troubleshooting for pipeline error isolation.
 * **Shield:** Encryption enforcement, data minimization, and local security protocol guardian.
 * **Pandora:** Compartmental engine coordinator managing module separation and data flow.
-* **MIT License Framework:** Free for public use, modification, and distribution under standard MIT terms, keeping your core architecture protected.
+* **Sovereignty Framework:** 100% proprietary intellectual property protected under custom sovereign operational protocols.
 
-### 📈 Agent Succession & Oversight Matrix
+---
+
+### <mark style="background-color: #37154b; color: white; padding: 2px 6px;">Agent Succession & Oversight Matrix</mark>
+
 ```mermaid
-flowchart LR
-    Root[Axiom Veda / Master Control] --> Node1[Oscar: Data Operations]
-    Root --> Node2[Eva: Compliance Routing]
-    Root --> Node3[Lyrica: Error Isolation]
-    Root --> Node4[Shield: Access Control]
+graph TD
+    A[Axiom Veda / Master Control] --> B[Oscar: Data Operations]
+    A --> C[Eva: Compliance Routing]
+    A --> D[Lyrica: Error Isolation]
+    A --> E[Shield: Access Control]
+    style A fill:#1e1e1e,stroke:#333,stroke-width:2px,color:#fff
+    style B fill:#1e3a1e,stroke:#2b580c,stroke-width:1px,color:#fff
+    style C fill:#1e293b,stroke:#0c4a6e,stroke-width:1px,color:#fff
+    style D fill:#3b1f1e,stroke:#7c2d12,stroke-width:1px,color:#fff
+    style E fill:#2d1e3b,stroke:#37154b,stroke-width:1px,color:#fff
 
  
