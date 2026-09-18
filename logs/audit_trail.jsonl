@@ -1,0 +1,2 @@
+{"timestamp": "2026-09-18T15:33:52.485312", "architect": "Axiom Veda", "level": "INFO", "source": "06_Telemetry_Logging_Service", "event_type": "SYSTEM_BOOT", "details": {"status": "Nominal", "sovereignty_check": "Passed"}}
+{"timestamp": "2026-09-18T15:34:32.269063", "architect": "Axiom Veda", "level": "INFO", "source": "06_Telemetry_Logging_Service", "event_type": "SYSTEM_BOOT", "details": {"status": "Nominal", "sovereignty_check": "Passed"}}
