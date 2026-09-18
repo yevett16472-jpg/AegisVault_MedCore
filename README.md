@@ -1,4 +1,4 @@
-<mark style="background-color: #1e1e1e; color: #ffffff; padding: 3px 8px; font-weight: bold;">[ Overview ]</mark> &nbsp;&nbsp;|&nbsp;&nbsp; <mark style="background-color: #2b580c; color: #ffffff; padding: 3px 8px; font-weight: bold;">[ 1. Research & Architecture ]</mark> &nbsp;&nbsp;|&nbsp;&nbsp; <mark style="background-color: #7c2d12; color: #ffffff; padding: 3px 8px; font-weight: bold;">[ 2. Compliance & Standards ]</mark> &nbsp;&nbsp;|&nbsp;&nbsp; <mark style="background-color: #37154b; color: #ffffff; padding: 3px 8px; font-weight: bold;">[ Agent Matrix ]</mark>
+<span style="background-color: #1e1e1e; color: #ffffff; padding: 4px 10px; border-radius: 4px; font-weight: bold;">[ Overview ]</span> &nbsp;&nbsp;|&nbsp;&nbsp; <span style="background-color: #2b580c; color: #ffffff; padding: 4px 10px; border-radius: 4px; font-weight: bold;">[ 1. Research & Architecture ]</span> &nbsp;&nbsp;|&nbsp;&nbsp; <span style="background-color: #7c2d12; color: #ffffff; padding: 4px 10px; border-radius: 4px; font-weight: bold;">[ 2. Compliance & Standards ]</span> &nbsp;&nbsp;|&nbsp;&nbsp; <span style="background-color: #0c4a6e; color: #ffffff; padding: 4px 10px; border-radius: 4px; font-weight: bold;">[ Quick Start ]</span> &nbsp;&nbsp;|&nbsp;&nbsp; <span style="background-color: #37154b; color: #ffffff; padding: 4px 10px; border-radius: 4px; font-weight: bold;">[ Agent Matrix ]</span>
 
 ---
 
@@ -9,7 +9,7 @@
 
 ---
 
-### <mark style="background-color: #2b580c; color: white; padding: 2px 6px;">1. Research & System Architecture (Research Core)</mark>
+### <span style="background-color: #2b580c; color: #ffffff; padding: 3px 8px; border-radius: 4px;">1. Research & System Architecture (Research Core)</span>
 
 `AegisVault_MedCore` is engineered as a secure, local-first medical data repository and Decision Support System built under the proprietary **Pandora's Box compartmental engine strategy**, ensuring absolute data privacy with zero third-party cloud dependencies.
 
@@ -19,7 +19,7 @@
 
 ---
 
-### <mark style="background-color: #7c2d12; color: white; padding: 2px 6px;">2. Legal Compliance, Protocols & Standards (Compliance & Roster)</mark>
+### <span style="background-color: #7c2d12; color: #ffffff; padding: 3px 8px; border-radius: 4px;">2. Legal Compliance, Protocols & Standards (Compliance & Roster)</span>
 
 Designed with strict adherence to data privacy frameworks and sovereign agent orchestration.
 
@@ -32,18 +32,18 @@ Designed with strict adherence to data privacy frameworks and sovereign agent or
 
 ---
 
-### <mark style="background-color: #37154b; color: white; padding: 2px 6px;">Agent Succession & Oversight Matrix</mark>
+### <span style="background-color: #0c4a6e; color: #ffffff; padding: 3px 8px; border-radius: 4px;">Quick Start Guide</span>
 
-```mermaid
-graph TD
-    A[Axiom Veda / Master Control] --> B[Oscar: Data Operations]
-    A --> C[Eva: Compliance Routing]
-    A --> D[Lyrica: Error Isolation]
-    A --> E[Shield: Access Control]
-    style A fill:#1e1e1e,stroke:#333,stroke-width:2px,color:#fff
-    style B fill:#1e3a1e,stroke:#2b580c,stroke-width:1px,color:#fff
-    style C fill:#1e293b,stroke:#0c4a6e,stroke-width:1px,color:#fff
-    style D fill:#3b1f1e,stroke:#7c2d12,stroke-width:1px,color:#fff
-    style E fill:#2d1e3b,stroke:#37154b,stroke-width:1px,color:#fff
+To clone and initialize the local secure repository environment on your local machine:
+
+```bash
+# Clone the sovereign repository
+git clone [https://github.com/yevett16472-jpg/AegisVault_MedCore.git](https://github.com/yevett16472-jpg/AegisVault_MedCore.git)
+
+# Navigate into the project directory
+cd AegisVault_MedCore
+
+# Verify local pipeline status
+git status
 
  
