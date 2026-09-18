@@ -1,4 +1,8 @@
-<span style="background-color: #1e1e1e; color: #ffffff; padding: 4px 10px; border-radius: 4px; font-weight: bold;">[ Overview ]</span> &nbsp;&nbsp;|&nbsp;&nbsp; <span style="background-color: #2b580c; color: #ffffff; padding: 4px 10px; border-radius: 4px; font-weight: bold;">[ 1. Research & Architecture ]</span> &nbsp;&nbsp;|&nbsp;&nbsp; <span style="background-color: #7c2d12; color: #ffffff; padding: 4px 10px; border-radius: 4px; font-weight: bold;">[ 2. Compliance & Standards ]</span> &nbsp;&nbsp;|&nbsp;&nbsp; <span style="background-color: #0c4a6e; color: #ffffff; padding: 4px 10px; border-radius: 4px; font-weight: bold;">[ Quick Start ]</span> &nbsp;&nbsp;|&nbsp;&nbsp; <span style="background-color: #37154b; color: #ffffff; padding: 4px 10px; border-radius: 4px; font-weight: bold;">[ Agent Matrix ]</span>
+[![Overview](https://img.shields.io/badge/Overview-1E1E1E?style=for-the-badge&logoColor=white)](https://github.com/yevett16472-jpg/AegisVault_MedCore)
+[![Research Core](https://img.shields.io/badge/1._Research_%26_Architecture-2B580C?style=for-the-badge&logoColor=white)](https://github.com/yevett16472-jpg/AegisVault_MedCore)
+[![Compliance Standards](https://img.shields.io/badge/2._Legal_%26_Compliance-7C2D12?style=for-the-badge&logoColor=white)](https://github.com/yevett16472-jpg/AegisVault_MedCore)
+[![Quick Start](https://img.shields.io/badge/Quick_Start_Guide-0C4A6E?style=for-the-badge&logoColor=white)](https://github.com/yevett16472-jpg/AegisVault_MedCore)
+[![Agent Matrix](https://img.shields.io/badge/Agent_Oversight_Matrix-37154B?style=for-the-badge&logoColor=white)](https://github.com/yevett16472-jpg/AegisVault_MedCore)
 
 ---
 
@@ -9,7 +13,7 @@
 
 ---
 
-### <span style="background-color: #2b580c; color: #ffffff; padding: 3px 8px; border-radius: 4px;">1. Research & System Architecture (Research Core)</span>
+## 🔬 [![Research Core](https://img.shields.io/badge/Section_01-2B580C?style=flat-square)]() Research & System Architecture (Research Core)
 
 `AegisVault_MedCore` is engineered as a secure, local-first medical data repository and Decision Support System built under the proprietary **Pandora's Box compartmental engine strategy**, ensuring absolute data privacy with zero third-party cloud dependencies.
 
@@ -19,7 +23,7 @@
 
 ---
 
-### <span style="background-color: #7c2d12; color: #ffffff; padding: 3px 8px; border-radius: 4px;">2. Legal Compliance, Protocols & Standards (Compliance & Roster)</span>
+## 📜 [![Compliance Standards](https://img.shields.io/badge/Section_02-7C2D12?style=flat-square)]() Legal Compliance, Protocols & Standards (Compliance & Roster)
 
 Designed with strict adherence to data privacy frameworks and sovereign agent orchestration.
 
@@ -32,7 +36,7 @@ Designed with strict adherence to data privacy frameworks and sovereign agent or
 
 ---
 
-### <span style="background-color: #0c4a6e; color: #ffffff; padding: 3px 8px; border-radius: 4px;">Quick Start Guide</span>
+## ⚡ Quick Start Guide
 
 To clone and initialize the local secure repository environment on your local machine:
 
@@ -45,5 +49,3 @@ cd AegisVault_MedCore
 
 # Verify local pipeline status
 git status
-
- 
